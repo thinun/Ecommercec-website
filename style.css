@@ -473,6 +473,7 @@ footer .copy-right {
     text-align: center;
     width: 100%;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 footer .icon i {
@@ -484,9 +485,17 @@ footer .icon i:hover {
     color: #019BCF;
     transition: 0.3s ease;
 }
+footer .footer-column a:hover {
+    color: gray;
+    transition: 0.3s ease;
+}
 
 footer img {
     border: 1px solid #019BCF;
     margin-top: 10px;
+}
+footer img:hover{
+    border: 1px solid black;
+    transition: 0.3s ease;
 }
 
