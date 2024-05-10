@@ -164,6 +164,8 @@ body {
 
 #hero button:hover {
     color: white;
+    transition: 0.3s ease;
+
 }
 
 #feature {
@@ -224,7 +226,7 @@ body {
 }
 
 /* ............products ...............*/
-#product1, #new-product{
+#product1, #new-product {
     text-align: center;
 }
 
@@ -287,7 +289,7 @@ body {
 }
 
 #product1 .product .cart,
-#new-product .product .cart{
+#new-product .product .cart {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -300,7 +302,7 @@ body {
 }
 
 #product1 .product .cart:hover,
-#new-product .product .cart:hover{
+#new-product .product .cart:hover {
     color: #FFA500;
     transform: scale(1.2);
     transition: 0.3s;
@@ -311,6 +313,7 @@ body {
     flex-wrap: wrap;
 
 }
+
 /*.........sale banner */
 #banner {
     display: flex;
@@ -345,14 +348,14 @@ body {
 }
 
 /*................2nd banner left ..............*/
-#banner-2{
+#banner-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#banner-2 .banner-box{
+#banner-2 .banner-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -363,21 +366,25 @@ body {
     background-size: cover;
     height: 40vh;
 }
-#banner-2 #right-banner{
+
+#banner-2 #right-banner {
     background-image: url("img/banner/b10.jpg");
 }
-#banner-2 .banner-box h2{
+
+#banner-2 .banner-box h2 {
     font-size: 30px;
 }
-#banner-2 .banner-box button{
+
+#banner-2 .banner-box button {
     margin-top: 20px;
 }
-#banner-2 .banner-box button:hover{
+
+#banner-2 .banner-box button:hover {
     background-color: #019BCF;
 }
 
 /*..............news letter............*/
-#news-letter{
+#news-letter {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -387,22 +394,27 @@ body {
     background-size: cover;
     width: 100%;
 }
-#news-letter h4{
+
+#news-letter h4 {
     color: white;
     padding-left: 80px;
 }
-#news-letter p{
+
+#news-letter p {
     color: white;
     padding-left: 80px;
 }
-#news-letter span{
+
+#news-letter span {
     color: #FFA500;
     cursor: pointer;
 }
-#news-letter .form{
+
+#news-letter .form {
     margin-right: 80px;
 }
-#news-letter .form input{
+
+#news-letter .form input {
     width: 400px;
     height: 40px;
     border-radius: 4px;
@@ -410,36 +422,71 @@ body {
     margin-right: 10px;
     padding-left: 10px;
 }
-#news-letter .form input:focus{
+
+#news-letter .form input:focus {
     outline: none;
 }
-#news-letter .form button{
+
+#news-letter .form button {
     height: 40px;
     padding: 10px;
 }
-#news-letter .form button:hover{
+
+#news-letter .form button:hover {
     background-color: #FFA500;
 }
 
 /*...........footer.................*/
-footer{
+footer {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-footer .footer-column h4{
-    font-size: 14px;
+
+footer .footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
 }
-footer .footer-column p{
+
+footer a {
     font-size: 12px;
+    text-decoration: none;
+    color: black;
+
 }
-footer .footer-column .icon{
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 5px;
+}
+
+footer .copy-right {
+    text-align: center;
+    width: 100%;
     margin-top: 20px;
 }
-footer .footer-column .icon i{
-    margin-left: 5px;
+
+footer .icon i {
+    padding-left: 10px;
     cursor: pointer;
 }
-footer .footer-column img{
-    cursor: pointer;
+
+footer .icon i:hover {
+    color: #019BCF;
+    transition: 0.3s ease;
 }
+
+footer img {
+    border: 1px solid #019BCF;
+    margin-top: 10px;
+}
+
