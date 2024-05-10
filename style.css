@@ -90,8 +90,8 @@ body {
 
 #navbar li {
     list-style: none;
-    padding: 0 20px 20px;
     position: relative;
+    padding: 20px;
 }
 
 #navbar li a {
@@ -117,9 +117,12 @@ body {
     background-color: #FFA500;
     position: absolute;
     left: 20px;
-    top: 20px;
+    top: 40px;
 }
-
+#mobile{
+    display: none;
+    align-items: center;
+}
 /* home page hero section */
 #hero {
     background-image: url("img/main.jpg");
@@ -485,6 +488,7 @@ footer .icon i:hover {
     color: #019BCF;
     transition: 0.3s ease;
 }
+
 footer .footer-column a:hover {
     color: gray;
     transition: 0.3s ease;
@@ -494,8 +498,10 @@ footer img {
     border: 1px solid #019BCF;
     margin-top: 10px;
 }
-footer img:hover{
+
+footer img:hover {
     border: 1px solid black;
     transition: 0.3s ease;
 }
+
 

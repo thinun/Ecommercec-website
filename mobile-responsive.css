@@ -1,0 +1,34 @@
+/*..........media Query ................*/
+
+@media (max-width: 799px) {
+    /* hamburger menu*/
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        height: 100vh;
+        width: 200px;
+        background-color: #019BCF;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding-top: 80px;
+        padding-left: 30px;
+
+    }
+    #navbar.active{
+        right: 0;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        padding-left: 20px;
+        font-size: 24px;
+        color: black;
+    }
+
+}
