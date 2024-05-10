@@ -64,6 +64,7 @@ p {
 
 body {
     width: 100%;
+    cursor: default;
 }
 
 /* header */
@@ -418,4 +419,27 @@ body {
 }
 #news-letter .form button:hover{
     background-color: #FFA500;
+}
+
+/*...........footer.................*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .footer-column h4{
+    font-size: 14px;
+}
+footer .footer-column p{
+    font-size: 12px;
+}
+footer .footer-column .icon{
+    margin-top: 20px;
+}
+footer .footer-column .icon i{
+    margin-left: 5px;
+    cursor: pointer;
+}
+footer .footer-column img{
+    cursor: pointer;
 }
