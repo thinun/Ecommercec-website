@@ -1,8 +1,9 @@
 /*..........media Query ................*/
 
-@media (max-width: 799px) {
+@media (max-width: 1000px) {
+
     /* hamburger menu*/
-    #navbar{
+    #navbar {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -16,19 +17,304 @@
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding-top: 80px;
         padding-left: 30px;
+        transition: 0.3s ease;
 
     }
-    #navbar.active{
+
+    #navbar.active {
         right: 0;
     }
-    #mobile{
+
+    #mobile {
         display: flex;
         align-items: center;
     }
-    #mobile i{
+
+    #mobile i {
         padding-left: 20px;
         font-size: 24px;
         color: black;
     }
 
+    #close-ham {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: black;
+        font-size: 26px;
+
+    }
+
+    #cart-icon {
+        display: none;
+    }
+
+    /*.........hero section............*/
+    #hero {
+        height: 70vh;
+        width: 100%;
+        background-position: top 40% right 50%;
+    }
+
+    #hero p {
+        color: black;
+    }
+
+    /*............................*/
+    #feature .feature-box {
+        width: 180px;
+        margin-bottom: 30px;
+
+    }
+
+    #news-letter {
+        height: 20vh;
+    }
+
+    #news-letter h4 {
+        padding-left: 40px;
+        font-size: 15px;
+    }
+
+    #news-letter p {
+        font-size: 12px;
+        padding-left: 40px;
+    }
+
+    #news-letter .form input {
+        width: 200px;
+        height: 30px;
+    }
+
+    #news-letter .form button {
+        height: 30px;
+        font-size: 10px;
+    }
+
+    #news-letter .form {
+        margin-right: 10px;
+        padding-right: 40px;
+    }
+
+    #banner-2 .banner-box {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
 }
+
+@media (max-width: 432px) {
+    .section-p1 {
+        padding: 20px 20px;
+    }
+
+    #header {
+        padding: 20px 20px;
+    }
+
+    #hero h4 {
+        padding-bottom: 5px;
+    }
+
+    #hero h1 {
+        color: #FFA500;
+        font-size: 15px;
+
+    }
+
+    #hero h2 {
+        font-size: 27px;
+    }
+
+    #hero {
+
+        padding-right: 20px;
+        background-position: top 40% right 60%;
+    }
+
+    #hero p {
+        color: black;
+        font-size: 12px;
+    }
+
+    #hero button {
+        transform: scale(0.4);
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .feature-box {
+        width: 150px;
+    }
+
+    #product1 h2 {
+        font-size: 25px;
+    }
+
+    #banner h2 {
+        font-size: 20px;
+    }
+
+    #banner button {
+        transform: scale(0.8);
+    }
+
+    #new-product h2 {
+        font-size: 25px;
+    }
+
+    #banner-2 {
+
+        flex-direction: column;
+
+    }
+
+    #banner-2 .banner-box {
+        width: 100%;
+        background-size: cover;
+        height: 30vh;
+    }
+
+    #banner-2 button {
+        transform: scale(0.7);
+    }
+
+    #banner-2 .banner-box h2 {
+        font-size: 20px;
+    }
+
+    #news-letter {
+        flex-direction: column;
+        justify-content: center;
+        height: 30vh;
+        width: 100%;
+    }
+
+    .form {
+        padding-left: 40px;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    footer .footer-column {
+        margin-left: 20px;
+
+    }
+
+    @media (max-width: 432px) {
+        #hero h2 {
+            font-size: 23px;
+        }
+
+        #news-letter .form input {
+            width: 190px;
+            height: 30px;
+        }
+    }
+}
+
+@media (max-width: 1025px) {
+    #hero {
+        padding-right: 40px;
+        padding-bottom: 180px;
+        background-position: top 40% right 60%;
+        height: 70vh;
+    }
+
+    #feature {
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #feature .feature-box {
+        width: 200px;
+        margin: 20px;
+    }
+
+    #product1 .product, #new-product .product,
+    #new-product .product, #new-product .product {
+        width: 21%;
+        min-width: 190px;
+
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #banner-2 .banner-box {
+        height: 20vh;
+    }
+
+    #banner-2 button {
+        transform: scale(0.9);
+    }
+
+    #news-letter {
+        flex-direction: column;
+        justify-content: center;
+        height: 20vh;
+        width: 100%;
+    }
+
+    #news-letter h4 {
+        color: white;
+        padding-left: 0;
+    }
+
+    #news-letter p {
+        padding-left: 0;
+    }
+
+    #news-letter .form input {
+        width: 600px;
+        height: 40px;
+    }
+
+
+}
+
+@media (max-width: 913px) {
+
+    #feature {
+        justify-content: center;
+
+    }
+
+    #feature .feature-box {
+        width: 180px;
+        margin: 20px;
+    }
+
+    #product1 .product, #new-product .product,
+    #new-product .product, #new-product .product {
+        width: 25%;
+        min-width: 250px;
+
+    }
+}
+
+@media (max-width: 854px) {
+
+    #feature .feature-box {
+        width: 179px;
+        margin: 10px;
+    }
+
+}
+
+
+
+

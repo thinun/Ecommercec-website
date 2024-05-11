@@ -504,4 +504,6 @@ footer img:hover {
     transition: 0.3s ease;
 }
 
-
+#close-ham{
+    display: none;
+}
