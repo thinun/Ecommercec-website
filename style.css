@@ -318,6 +318,7 @@ body {
 }
 
 /*.........sale banner */
+#shop-banner,
 #banner {
     display: flex;
     flex-direction: column;
@@ -329,13 +330,17 @@ body {
     background-size: cover;
     height: 40vh;
 }
+#shop-banner {
+    background-image: url("img/banner/b1.jpg");
 
+}
+#shop-banner h4,
 #banner h4 {
     color: white;
     font-size: 20px;
     padding-bottom: 20px;
 }
-
+#shop-banner h2,
 #banner h2 {
     color: white;
     font-size: 30px;
@@ -349,7 +354,10 @@ body {
     color: red;
     background-color: #06101E;
 }
-
+#shop-banner button:hover{
+    background-color: #019BCF;
+    color: #222222;
+}
 /*................2nd banner left ..............*/
 #banner-2 {
     display: flex;
@@ -506,4 +514,88 @@ footer img:hover {
 
 #close-ham{
     display: none;
+}
+
+/*........pagination .........*/
+#pagination{
+    text-align:  center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #019BCF;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#pagination a i{
+    font-size: 16px;
+
+
+}
+
+/*........single product page.......*/
+
+/*.....left side .........*/
+
+#product-details{
+    display: flex;
+
+}
+#product-details .single-product-img{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-product-img{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+/*.right-side......*/
+#product-details .single-product-details{
+    width: 50%;
+}
+#product-details .single-product-details h6{
+    margin-top: 20px;
+
+}
+#product-details .single-product-details h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#product-details .single-product-details h2 {
+    font-size: 30px;
+
+}
+#product-details .single-product-details select{
+    width: 150px;
+    height: 40px;
+}
+#product-details .single-product-details select{
+    padding:5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#product-details .single-product-details input{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+    outline: none;
+}
+#product-details .single-product-details button{
+    background-color: #019BCF;
+    height: 50px;
+}
+#product-details .single-product-details button:hover{
+    background-color: #FFA500;
+}
+#product-details .single-product-details span{
+    line-height: 25px;
 }
