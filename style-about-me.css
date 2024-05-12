@@ -1,0 +1,55 @@
+/* CSS styles for the about section */
+
+#about-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#about-head img {
+    max-width: 50%;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+#about-head div {
+    max-width: 600px;
+}
+
+#about-head h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about-head p {
+    text-align: start;
+    font-size: 16px;
+    color: #666;
+}
+
+#scrolling-text {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* scrolling text *.................*/
+#scrolling-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.scrolling-text {
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left linear infinite;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
