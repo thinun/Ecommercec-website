@@ -15,6 +15,7 @@
 }
 
 #about-head div {
+    width: 50%;
     max-width: 600px;
 }
 
@@ -51,5 +52,36 @@
 @keyframes scroll-left {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
+}
+
+
+/*banner*/
+#contact-banner-about
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url("img/banner/banner.png");
+    width: 100%;
+    background-size: cover;
+    height: 40vh;
+}
+
+#contact-banner-about {
+    background-image: url("img/banner/banner.png");
+}
+
+
+#contact-banner-about h4{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#contact-banner-about h2{
+    color: white;
+    font-size: 30px;
 }
 

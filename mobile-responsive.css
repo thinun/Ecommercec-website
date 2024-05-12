@@ -108,6 +108,31 @@
         justify-content: center;
 
     }
+
+
+    /*.......about me page..........*/
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        max-width: 70%;
+
+    }
+
+    #about-head div {
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    #contact-banner-about {
+        height: 20vh;
+    }
+
+    #contact-banner-about h2 {
+        color: white;
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 432px) {
@@ -227,9 +252,9 @@
 @media (max-width: 1025px) {
     #hero {
         padding-right: 40px;
-        padding-bottom: 180px;
+        padding-bottom: 100px;
         background-position: top 40% right 60%;
-        height: 70vh;
+        height: 100vh;
     }
 
     #feature {
@@ -255,7 +280,7 @@
     }
 
     #banner-2 .banner-box {
-        height: 20vh;
+        height: 40vh;
     }
 
     #banner-2 button {
@@ -265,7 +290,7 @@
     #news-letter {
         flex-direction: column;
         justify-content: center;
-        height: 20vh;
+        height: 30vh;
         width: 100%;
     }
 
@@ -283,6 +308,42 @@
         height: 40px;
     }
 
+    #contact-banner-about {
+        height: 30vh;
+    }
+
+    #sub-total {
+        width: 40%;
+        border: 1px black solid;
+        padding: 20px;
+    }
+
+    .map iframe {
+        width: 450px;
+        height: 400px;
+    }
+
+    #contact-detail .details {
+        width: 50%;
+    }
+
+    #contact-detail .details h2 {
+        font-size: 10px;
+    }
+
+    #contact-detail .details div li {
+        line-height: 0;
+    }
+
+    #members {
+        transform: scale(0.8);
+
+    }
+
+    #scrolling-container {
+        overflow: visible;
+        width: 100%;
+    }
 
 }
 
@@ -312,6 +373,40 @@
         width: 179px;
         margin: 10px;
     }
+
+    #shop-banner {
+        height: 20vh;
+    }
+
+    #news-letter {
+        height: 20vh;
+    }
+
+    #contact-banner-about {
+        height: 20vh;
+    }
+
+    #contact-banner {
+        height: 20vh;
+    }
+
+    #contact-detail {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #contact-detail .details {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    #contact-detail .map iframe{
+       width: 100%;
+    }
+    #coupon-btn{
+        margin-top: 20px;
+    }
+
+
 
 }
 
