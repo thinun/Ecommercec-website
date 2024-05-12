@@ -1,0 +1,103 @@
+#cart table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+#cart table thead{
+
+    padding: 10px;
+    border-bottom: 1px black solid;
+}
+#cart table thead td{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+#cart table tbody td{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+#cart table img{
+    width: 70px;
+    cursor: pointer;
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 200px;
+    text-align: center;
+}
+#cart table td:nth-child(4){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(5){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+}
+#cart table td:nth-child(6){
+    width: 100px;
+    text-align: center;
+}
+
+#cart-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#coupon{
+   width: 50%;
+}
+#coupon h3{
+   padding-bottom: 20px;
+}
+#coupon button{
+    background-color: #019BCF;
+    height: 50px;
+}
+#coupon input{
+   height: 50px;
+    padding: 10px;
+    width: 300px;
+}
+
+#sub-total{
+    width: 30%;
+    border: 1px black solid;
+    padding: 20px;
+}
+#sub-total h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#sub-total table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+#sub-total table td{
+    border: 1px black solid;
+    width: 50%;
+    padding: 10px;
+    font-size: 13px;
+}
+#sub-total button{
+    background-color: #019BCF;
+    font-size: 12px;
+}
